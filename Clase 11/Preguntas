@@ -1,0 +1,58 @@
+1. ¿Qué es la encapsulación y por qué es importante en la Programación Orientada a Objetos?
+R: La encapsulación se encarga en ocultar los datos internos de un objeto y mostrar solo los necesarios a traves de metodos publicos
+   Y es importante porque protege los datos evitando accesos indevidos y mantiene un control sobre cambios.
+
+2. ¿Qué diferencia hay entre un método y un constructor?
+R:Un constructor es metodo que se ejecuta cuando se crea un objeto mientras un metodo se usa para realizar comportamientos y acciones
+
+3. ¿Por qué los atributos deben ser privados y no públicos?
+R:Los atributos deben ser privados para integridad y control de los datos
+
+4. ¿Qué función cumplen los getters y setters?
+R:Los getters y setters son metodos que permiten acceder y modificar los atributos privados
+
+5. Verdadero o falso: “Un método setter no debe validar los datos que recibe.” Justifique.
+R: Falso porque los setters tienen que validar siempre los datos
+
+Atributos
+------------------------------------------------------------------------
+Nombre   |Tipo de dato  | Visibilidad |Descrip                          |
+------------------------------------------------------------------------
+titular  | String       | Private     | nombre del titular de la cuenta |
+-------------------------------------------------------------------------
+Numero de| String       | Private     | Numero de la cuenta             |
+cuenta   |              |             |                                 |
+-------------------------------------------------------------------------
+Saldo    | double       | Private     | Saldo que hay en la cuenta      |
+-------------------------------------------------------------------------
+Codigo   | String       |   private   |  Codigo del producto            |
+-------------------------------------------------------------------------
+cantidad | Int          |   private   | X cantidad del producto         |                          
+-------------------------------------------------------------------------
+Descripcion |  String   |    Private  | Descripcion del producto        |                      
+-------------------------------------------------------------------------
+Precio   | Double       |   Private   | precio del producto             |                  
+Unitario |              |             |                                 |
+-------------------------------------------------------------------------
+
+Metodos
+-------------------------------------------------------------------------
+Nombre     | Parámetros  | Retorno    |Descripción                          |
+-------------------------------------------------------------------------
+Depositar  | double      | saldo     | Retorna el saldo despues de depositar|
+-----------------------------------------------------------------------------
+Retirar    | double      | saldo     | retorna el saldo despues de retirar  |
+-----------------------------------------------------------------------------
+toString   | String      | los atribustos | Regresa todos los datos         |
+           |             |  Tituar, Numero|                                 | 
+           |             |  de cuenta y   |                                 | 
+           |             |  saldo         |                                 |
+------------------------------------------------------------------------------
+Calcular sub| double     | la cantidad       | regresa el subtotal depues de |
+total       |            | multiplicada por  | la multiplicada               |
+                           el precio Unitario|
+------------------------------------------------------------------------------
+Calcular    | double    |   subtotal mas el  |   Regresa el impuesto despues  |
+el impuesto |           |   impuesto         |  de sumar el subtotal mas      |
+total       |           |                    |                                |
+-----------------------------------------------------------------------------
