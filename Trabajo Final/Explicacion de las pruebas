@@ -1,4 +1,4 @@
-// Ejemplo 1
+// Ejemplo 
 La prueba realizada muestra cómo el sistema del ascensor atiende solicitudes y 
 maneja una emergencia de manera correcta. Al iniciar, el programa despliega el 
 mensaje indicando que el sistema fue iniciado con un total de diez pisos disponibles.
