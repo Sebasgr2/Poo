@@ -1,0 +1,25 @@
+// Ejemplo 1
+La prueba realizada muestra cómo el sistema del ascensor atiende solicitudes y 
+maneja una emergencia de manera correcta. Al iniciar, el programa despliega el 
+mensaje indicando que el sistema fue iniciado con un total de diez pisos disponibles.
+Luego se simula que tres personas ingresan al ascensor en el piso 1.  Al hacerlo, 
+se activa el botón de piso correspondiente y el sistema registra una solicitud 
+para subir. Como el ascensor ya se encuentra en el piso 1, simplemente reconoce 
+la solicitud sin necesidad de moverse. A continuación, cada una de las tres personas
+selecciona un destino distinto dentro de la cabina. La primera persona elige el piso 4,
+la segunda selecciona el piso 7 y la tercera el piso 9. Cada vez que un destino es elegido,
+el sistema enciende el botón correspondiente y registra el nuevo piso objetivo. Después de esto,
+comienza la fase de movimiento: el ascensor inicia su recorrido subiendo y se va desplazando piso por
+piso desde el 1 hasta el 4.
+
+Cuando llega al piso 4, el ascensor abre las puertas automáticamente y se indica que las personas
+que van a ese piso se bajan. Luego continúa hacia el piso 5, 6 y 7. Al llegar al piso 7 vuelve a
+abrir sus puertas, permitiendo que baje la segunda persona. Después sigue su recorrido hacia el
+piso 8 y finalmente al piso 9, donde nuevamente abre las puertas para que descienda la última
+persona que había seleccionado ese destino.
+
+Una vez atendidos todos los destinos, el sistema simula una emergencia: un corte de energía mientras
+el ascensor se encontraba subiendo nuevamente cerca del piso 8. El sistema detecta la falla y entra en
+modo de emergencia, mostrando un mensaje de advertencia indicando el piso donde ocurrió. Inmediatamente
+el ascensor se detiene y abre sus puertas para proteger a los pasajeros, tal como requiere un protocolo
+de seguridad.
